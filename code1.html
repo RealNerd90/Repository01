@@ -1,0 +1,102 @@
+<!--Table -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern CSS Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+            flex-direction: column;
+        }
+        .table-container {
+            width: 90%;
+            max-width: 1000px;
+            background: black;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+        }
+        th, td {
+            padding: 60px;
+            text-align: center;
+            font-size: 18px;
+        }
+        th {
+            background-color: red;
+            color: white;
+        }
+        tr {
+            background-color: #1c1c1c;
+        }
+        tr:nth-child(even) {
+            background-color: #111;
+        }
+        tr:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h2><u>TABLE IN HTML</u></h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Employee Id</th>
+                    <th>Salary</th>
+                    <th>PhoneNo.</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Amartya</td>
+                    <td>Developer</td>
+                    <td>1001234</td>
+                    <td>$2200</td>
+                    <td>8903462781</td>
+                </tr>
+                <tr>
+                    <td>Vishal</td>
+                    <td>Project Manager</td>
+                    <td>2390213</td>
+                    <td>$2000</td>
+                    <td>9905672385</td>
+                </tr>
+                <tr>
+                    <td>Sonu</td>
+                    <td>Designer</td>
+                    <td>8900001</td>
+                    <td>$1800</td>
+                    <td>6885922985</td>
+                </tr>
+                <tr>
+                    <td>Raj</td>
+                    <td>Marketing</td>
+                    <td>5600012</td>
+                    <td>$1900</td>
+                    <td>7890123456</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
